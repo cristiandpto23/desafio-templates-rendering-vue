@@ -3,10 +3,10 @@ export default {
     name: 'AwesomeVue',
     data() {
         return {
-            backgroundColor: 'white',
-            textColor: 'black',
+            backgroundColor: 'darkgreen',
+            textColor: 'white',
             showText: true,
-            borde: '1',
+            borde: '0',
             text: 'Awesome Vue.js',
             fontFamily: '',
             fonts: ['Cursive', 'Arial', 'Verdana', 'Courier New', 'Georgia', 'Times New Roman'],
@@ -34,7 +34,7 @@ export default {
             </div>
             <div class="instrucciones__subcontainer">
                 <label for="">Borde</label>
-                <input class="instrucciones__input instrucciones__input--range" type="range" v-model="borde" min="0" max="75" />
+                <input class="instrucciones__input instrucciones__input--range" type="range" v-model="borde" min="0" max="50" />
             </div>
             <div class="instrucciones__subcontainer">
                 <label for="">Contenido textual</label>
@@ -58,17 +58,17 @@ export default {
                         <label for="pequenyo">Pequeño</label>
                     </div>
                     <div class="instrucciones__tamaño-letra">
-                        <input type="radio" v-model="fontSize" value="15px" id="medio" />
+                        <input type="radio" v-model="fontSize" value="16px" id="medio" />
                         <label for="medio">Medio</label>
                     </div>
                     <div class="instrucciones__tamaño-letra">
-                        <input type="radio" v-model="fontSize" value="25px" id="grande" />
+                        <input type="radio" v-model="fontSize" value="32px" id="grande" />
                         <label for="grande">Grande</label>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="creacion" :style="{ backgroundColor, border: borde + 'px solid black', fontFamily, opacity: opaco ? 0.5 : 1 }">
+        <section class="creacion" :style="{ backgroundColor, borderRadius: borde + '%', fontFamily, opacity: opaco ? 0.5 : 1 }">
             <div :style="{ backgroundColor }">
                 <p :style="{ color: textColor, fontSize }" v-show="showText">{{ text }}</p>
             </div>
