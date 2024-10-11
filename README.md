@@ -2,7 +2,7 @@
 
 💡   Realizado [cristiandpto23](https://github.com/cristiandpto23) con HTML, CSS ,JS, Bootstrap y Sass<br>
 ℹ Front-End G17 - Desafío Latam<br>
-🔗 Desplegado en GitHub Pages [aquí](https://desafio-binding-formularios-dos.vercel.app/)<br>
+🔗 Desplegado en GitHub Pages [aquí](https://desafio-templates-rendering-vue.vercel.app/)<br>
 
 ## Introducción
 
@@ -12,7 +12,7 @@ _En este desafío validaremos nuestros conocimientos del data binding en Vue Js 
 
 En este desafío tendremos que crear una aplicación Vue Js desde 0 y maquetar la siguiente interfaz 
 
-![image](https://github.com/user-attachments/assets/1106c56e-2e94-486b-adb8-2ba6f0d22675)
+![image](https://github.com/user-attachments/assets/fb822e30-758d-4540-a324-8cf5e8f84c4e)
 
 En donde los inputs del formulario deberán modificar los estilos de la figura de la derecha. 
 
