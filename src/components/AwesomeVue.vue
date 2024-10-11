@@ -130,6 +130,12 @@ main {
     transition: opacity 0.3s ease-in-out;
     opacity: none;
 }
+.creacion div p {
+    width: 200px;
+    white-space: initial;
+    overflow: hidden;
+    text-overflow: '-';
+}
 @media (max-width: 768px) {
     main {
         flex-direction: column;
