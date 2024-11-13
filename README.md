@@ -2,7 +2,7 @@
 
 💡   Realizado [cristiandpto23](https://github.com/cristiandpto23) con HTML, CSS ,JS, Bootstrap y Sass<br>
 ℹ Front-End G17 - Desafío Latam<br>
-🔗 Desplegado en GitHub Pages [aquí](https://desafio-templates-rendering-vue.vercel.app/)<br>
+🔗 Desplegado en Vercel [aquí](https://desafio-templates-rendering-vue.vercel.app/)<br>
 
 ## Introducción
 
